@@ -1,0 +1,41 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #2196f3;
+  --family-color: #212121;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--family-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
