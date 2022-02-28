@@ -36,6 +36,12 @@
   margin-top: 4px;
   margin-bottom: 10px;
   display: block;
+
+ &:focus-within .icon-modal{
+  fill: var(--main-color);
+  border-color: var(--main-color);
+}
+
 }
 
 .icon-modal{
@@ -102,11 +108,6 @@ input{
 .modal-textarea:focus{
   border-color: var(--main-color);
   outline: none;
-}
-
-.modal-div:focus-within .icon-modal{
-  fill: var(--main-color);
-  border-color: var(--main-color);
 }
 
 .modal-form{
