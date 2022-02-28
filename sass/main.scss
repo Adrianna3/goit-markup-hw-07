@@ -6,12 +6,19 @@
 
 @import "./components/logo";
 @import "./components/modal-btn";
-@import "./components/secondary-header.scss";
-@import "./components/social";
+@import "./components/secondary-header";
+@import "./components/social-list";
+@import "./components/backdrop";
+@import "./components/modal";
 
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/about";
-@import "./layout/staff";
-@import "./layout/customer";
+@import "./layout/index-page/index-customer";
+@import "./layout/index-page/index-footer";
+@import "./layout/index-page/index-header";
+@import "./layout/index-page/index-hero";
+@import "./layout/index-page/index-navigation-advantages";
+@import "./layout/index-page/index-staff";
+@import "./layout/index-page/index-what-we-do";
+
+@import "./layout/portfolio-page/portfolio-filters-portfolio";
+@import "./layout/portfolio-page/portfolio-project";
 

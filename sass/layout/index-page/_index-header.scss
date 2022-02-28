@@ -9,16 +9,6 @@
 }
 
 
-.navigation-list,
-.navigation-advantages-list {
-  display: flex;
-  align-items: center;
-}
-
-.navigation-list-item:not(:last-child) {
-  margin-right: 46px;
-}
-
 .head-list-item {
   display: flex;
   align-items: center;
@@ -38,6 +28,7 @@
   fill: currentColor;
   margin-right: 10px;
 }
+
 .navigation-address {
   display: flex;
   align-items: center;
@@ -49,34 +40,6 @@
 
 .address-mail {
   margin-right: 50px;
-}
-
-.advantages-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 30px;
-}
-
-.advantages-list-link {
-  fill: #afb1b8;
-}
-
-.advantages-icon {
-  width: 270px;
-  height: 120px;
-}
-
-.navigation-advantages-item:not(:last-child) {
-  margin-right: 30px;
-  top: 93px;
-}
-.navigation-advantages {
-  padding-top: 94px;
-  margin: 0;
-}
-.navigation-advantages-item {
-  top: 774px;
 }
 
 
