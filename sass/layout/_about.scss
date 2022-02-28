@@ -1,0 +1,51 @@
+.what-we-do .secondary-header {
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.what-we-do-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.what-we-do-item {
+  position: relative;
+}
+.what-we-do-h4 {
+  position: absolute;
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.navigation-advantages-h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  left: 215px;
+  top: 774px;
+}
+
+.navigation-advantages-p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
