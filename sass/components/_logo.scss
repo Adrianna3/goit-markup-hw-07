@@ -1,6 +1,7 @@
 .navigation-logo {
   margin-right: 93px;
   font-family: var(--secondary-font);
+  color: var(--family-color);
 }
 .navigation-logo,
 .navigation-logo-footer {
@@ -10,22 +11,13 @@
   line-height: 1.192;
   letter-spacing: 0.03em;
 }
-.navigation-logo {
-  color: var(--family-color);
-}
 
 .navigation-logo-color {
   color: var(--main-color);
 }
 
 .navigation-logo-footer {
-  margin-top: 60px;
-}
-
-.navigation-logo-footer {
   font-family: var(--secondary-font);
-}
-
-.navigation-logo-footer {
+  margin-top: 60px;
   color: #ffffff;
 }

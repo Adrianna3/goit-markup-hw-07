@@ -3,10 +3,11 @@
   margin-bottom: 9px;
 }
 
-.footer_list_item:not(:last-child) {
-  margin-bottom: 9px;
+.footer_list_item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
-
 .footer {
   background: #2f303a;
 }
@@ -18,19 +19,15 @@
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
+
 .footer-address {
   color: #ffffff;
 }
-
 
 .footer-mail,
 .footer-phone-number {
   color: rgba(255, 255, 255, 0.6);
   height: 16px;
-}
-
-.footer .container {
-  display: flex;
 }
 
 .right-footer {
@@ -50,12 +47,11 @@
   padding-bottom: 20px;
 }
 
-
-.newsletter{
+.newsletter {
   margin-left: 94px;
 }
 
-.newsletter-window{
+.newsletter-window {
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   width: 358px;
@@ -69,25 +65,25 @@
   color: #fff;
   padding-left: 16px;
 
-  &:focus{
-  border-color: var(--main-color);
+  &:focus {
+    border-color: var(--main-color);
+  }
 }
 
-}
-
-.icon-newsletter{
+.icon-newsletter {
   margin-left: 24px;
   width: 24px;
   height: 24px;
 }
 
-input, textarea {
+input,
+textarea {
   padding: 15px;
   font-style: normal;
-  font-weight: normal;  
+  font-weight: normal;
   display: flex;
-  align-items: center; 
-  resize: none;  
+  align-items: center;
+  resize: none;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;

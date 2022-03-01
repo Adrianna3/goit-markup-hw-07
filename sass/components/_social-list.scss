@@ -15,6 +15,12 @@
   align-items: center;
   justify-content: center;
   fill: #afb1b8;
+
+  &:hover,
+  &:focus {
+    fill: #ffffff;
+    background-color: var(--main-color);
+  }
 }
 
 .social-icon {
@@ -22,15 +28,9 @@
   height: 20px;
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
-  fill: #ffffff;
-  background-color: var(--main-color);
-}
-
 .social-list-link {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-footer {
@@ -48,6 +48,14 @@
   align-items: center;
   justify-content: center;
   fill: #ffffff;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    fill: #ffffff;
+    background-color: var(--main-color);
+  }
 }
 
 .social-icon-footer {
@@ -55,17 +63,9 @@
   height: 20px;
 }
 
-.social-list-item-footer:not(:last-child) {
-  margin-right: 10px;
-}
-
-.social-list-link-footer:hover,
-.social-list-link-footer:focus {
-  fill: #ffffff;
-  background-color: var(--main-color);
-}
-
-.social-list-link-footer {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.social-list-item-footer {
+  &:not(:last-child){
+    margin-right: 10px;
+  }
+  
 }

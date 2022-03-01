@@ -8,6 +8,8 @@
   margin-left: 332px;
 }
 
-.filters-list-item-portfolio:not(:last-child) {
-  margin-right: 8px;
+.filters-list-item-portfolio {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 }

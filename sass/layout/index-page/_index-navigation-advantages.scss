@@ -24,20 +24,23 @@
   align-items: center;
 }
 
-.navigation-list-item:not(:last-child) {
-  margin-right: 46px;
+.navigation-list-item {
+  &:not(:last-child) {
+    margin-right: 46px;
+  }
 }
 
-.navigation-advantages-item:not(:last-child) {
-  margin-right: 30px;
-  top: 93px;
-}
 .navigation-advantages {
   padding-top: 94px;
   margin: 0;
 }
 .navigation-advantages-item {
   top: 774px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+    top: 93px;
+  }
 }
 
 .advantages-list {
