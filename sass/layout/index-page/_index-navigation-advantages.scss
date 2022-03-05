@@ -18,19 +18,12 @@
   color: #757575;
 }
 
-.navigation-list,
 .navigation-advantages-list {
   display: flex;
   align-items: center;
 }
 
-.navigation-list-item {
-  &:not(:last-child) {
-    margin-right: 46px;
-  }
-}
-
-.navigation-advantages {
+.advantages {
   padding-top: 94px;
   margin: 0;
 }
@@ -43,18 +36,18 @@
   }
 }
 
-.advantages-list {
+.advantages_list {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 30px;
 }
 
-.advantages-list-link {
+.advantages_link {
   fill: #afb1b8;
 }
 
-.advantages-icon {
+.advantages_icon {
   width: 270px;
   height: 120px;
 }
