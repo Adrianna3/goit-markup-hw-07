@@ -3,8 +3,8 @@
   margin-bottom: 10px;
   margin-left: 99px;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: $light;
+  font-size: $font16;
   line-height: 1.187;
 }
 
@@ -14,7 +14,7 @@
   padding-left: 24px;  
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: $font18;
   line-height: 2;
-  letter-spacing: 0.06em;
+  letter-spacing: $letter06;
 }

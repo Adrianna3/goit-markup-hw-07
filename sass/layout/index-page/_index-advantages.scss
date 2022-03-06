@@ -1,9 +1,9 @@
 .advantages__Loremh4 {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: $font14;
   line-height: 1.43;
-  letter-spacing: 0.03em;
+  letter-spacing: $letter03;
   text-transform: uppercase;
   left: 215px;
   top: 774px;
@@ -12,10 +12,10 @@
 .advantages__Loremp {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: $font14;
   line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: #757575;
+  letter-spacing: $letter03;
+  color: $secondary;
 }
 
 .advantages__Loremlist {
@@ -44,7 +44,7 @@
 }
 
 .advantages_link {
-  fill: #afb1b8;
+  fill: $light-gray;
 }
 
 .advantages__icon {

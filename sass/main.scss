@@ -1,4 +1,5 @@
 @import "./utils/visually-hidden";
+@import "./utils/variables";
 
 @import "./base/common";
 @import "./base/container";
@@ -14,9 +15,10 @@
 @import "./components/portfolio-model-btn";
 @import "./components/portfolio-project-list";
 
+@import "./layout/index-footer";
+@import "./layout/index-header";
+
 @import "./layout/index-page/index-customer";
-@import "./layout/index-page/index-footer";
-@import "./layout/index-page/index-header";
 @import "./layout/index-page/index-button";
 @import "./layout/index-page/index-advantages";
 @import "./layout/index-page/index-staff";

@@ -1,13 +1,11 @@
 :root {
   --font-family: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
-  --main-color: #2196f3;
-  --family-color: #212121;
 }
 
 body {
   font-family: var(--font-family);
-  color: var(--family-color);
+  color: $primary;
 }
 
 a {
@@ -48,12 +46,15 @@ textarea {
   display: flex;
   align-items: center;
   resize: none;
-  font-size: 12px;
+  font-size: $font12;
   line-height: 14px;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
+  letter-spacing: $letter01;
+  color: $secondary;
 }
 
 input {
   padding: 0;
+  .modal__div & {
+    padding-left: 42px;
+  }
 }

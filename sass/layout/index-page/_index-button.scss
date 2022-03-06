@@ -1,12 +1,12 @@
 .button__content h1 {
   font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
+  font-weight: $xbold;
+  font-size: $font44;
   line-height: 1.364;
 
   text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
+  letter-spacing: $letter06;
+  color: $white;
   width: 696px;
   height: 120px;
   left: 452px;
@@ -18,8 +18,8 @@
 
 .button {
   background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
+      $dark-shade,
+      $dark-shade
     ),
     url("../images/background.jpg");
   height: 37.5rem;
