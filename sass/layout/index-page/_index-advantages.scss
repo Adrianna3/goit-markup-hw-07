@@ -1,4 +1,4 @@
-.navigation-advantages-h4 {
+.advantages__Loremh4 {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -9,7 +9,7 @@
   top: 774px;
 }
 
-.navigation-advantages-p {
+.advantages__Loremp {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -18,7 +18,7 @@
   color: #757575;
 }
 
-.navigation-advantages-list {
+.advantages__Loremlist {
   display: flex;
   align-items: center;
 }
@@ -27,7 +27,7 @@
   padding-top: 94px;
   margin: 0;
 }
-.navigation-advantages-item {
+.advantages__Loremitem{
   top: 774px;
 
   &:not(:last-child) {
@@ -36,7 +36,7 @@
   }
 }
 
-.advantages_list {
+.advantages__list {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -47,7 +47,7 @@
   fill: #afb1b8;
 }
 
-.advantages_icon {
+.advantages__icon {
   width: 270px;
   height: 120px;
 }

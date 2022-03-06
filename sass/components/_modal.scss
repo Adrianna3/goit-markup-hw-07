@@ -21,7 +21,7 @@
   pointer-events: none;
 }
 
-.modal-h3 {
+.modal__h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -31,19 +31,19 @@
   margin-bottom: 12px;
 }
 
-.modal-div {
+.modal__div {
   position: relative;
   margin-top: 4px;
   margin-bottom: 10px;
   display: block;
 
-  &:focus-within .icon-modal {
+  &:focus-within .modal__icon {
     fill: var(--main-color);
     border-color: var(--main-color);
   }
 }
 
-.icon-modal {
+.modal__icon {
   position: absolute;
   width: 14px;
   height: 14px;
@@ -53,11 +53,11 @@
   display: block;
 }
 
-.modal-div input {
+.modal__div input {
   padding-left: 42px;
 }
 
-.modal-label {
+.modal__label {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -68,7 +68,7 @@
   outline: none;
 }
 
-.modal-input {
+.modal__input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -83,7 +83,7 @@
   }
 }
 
-.modal-textarea {
+.modal__textarea {
   width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -99,28 +99,24 @@
   }
 }
 
-.modal-div-textarea {
+.modal__divTextarea {
   margin-top: 4px;
   margin-bottom: 20px;
 }
 
-input {
-  padding: 0;
-}
-
-.modal-input:focus,
-.modal-textarea:focus {
+.modal__input:focus,
+.modal__textarea:focus {
   border-color: var(--main-color);
   outline: none;
 }
 
-.modal-form {
+.modal__form {
   display: flex;
   width: 100%;
   flex-direction: column;
 }
 
-.modal-form-policy-text {
+.modal__formPolicyText {
   cursor: pointer;
 
   &::before {
@@ -133,8 +129,8 @@ input {
   }
 }
 
-.modal-form-policy {
-  &:checked + .modal-form-policy-text::before {
+.modal__formPolicy {
+  &:checked + .modal__formPolicyText::before {
     background: #2196f3;
     border-radius: 2px;
     border: none;
@@ -144,13 +140,13 @@ input {
   }
 }
 
-.div-policy {
+.modal__policy {
   margin-bottom: 20px;
 }
 
-.policy-text-margin,
-.policy-text,
-.policy-text-link {
+.modal__margin,
+.modal__policyText,
+.modal__textLink{
   width: 395px;
   height: 24px;
   font-style: normal;
@@ -160,16 +156,16 @@ input {
   letter-spacing: 0.03em;
 }
 
-.policy-text-margin,
-.policy-text {
+.modal__margin,
+.modal__policyText {
   color: #757575;
 }
 
-.policy-text-margin {
+.modal__margin {
   margin-left: 8px;
 }
 
-.policy-text-link {
+.modal__textLink {
   color: var(--main-color);
   text-decoration: underline;
 }

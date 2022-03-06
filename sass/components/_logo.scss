@@ -4,7 +4,7 @@
   color: var(--family-color);
 }
 .logo,
-.logo__footer {
+.footer__logo {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -16,7 +16,7 @@
   color: var(--main-color);
 }
 
-.logo__footer {
+.footer__logo {
   font-family: var(--secondary-font);
   margin-top: 60px;
   color: #ffffff;

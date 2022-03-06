@@ -39,3 +39,21 @@ p {
 img {
   display: block;
 }
+
+input,
+textarea {
+  padding: 15px;
+  font-style: normal;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  resize: none;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+input {
+  padding: 0;
+}
