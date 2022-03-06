@@ -3,7 +3,7 @@
   padding-bottom: 94px;
 }
 
-.box {
+.project__box {
   position: relative;
   max-width: 370px;
   height: 294px;
@@ -11,12 +11,12 @@
   margin-right: auto;
   overflow: hidden;
 
-  &:hover .overlay {
+  &:hover .project__overlay {
     transform: translatey(0);
   }
 }
 
-.overlay-p {
+.project__overlay-p {
   height: 196px;
   width: 301px;
   margin-top: 49px;
@@ -29,7 +29,7 @@
   color: #ffffff;
 }
 
-.overlay {
+.project__overlay {
   position: absolute;
   top: 0;
   left: 0;

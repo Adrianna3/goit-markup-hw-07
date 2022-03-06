@@ -2,13 +2,13 @@
   padding-top: 94px;
 }
 
-.filters-list-portfolio {
+.portfolio__list {
   display: flex;
   align-items: center;
   margin-left: 332px;
 }
 
-.filters-list-item-portfolio {
+.portfolio__item {
   &:not(:last-child) {
     margin-right: 8px;
   }
