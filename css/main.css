@@ -615,6 +615,10 @@ input {
   border-bottom: 1px solid #ececec;
 }
 
+.header .address {
+  margin-left: auto;
+}
+
 .address__iconEnvelope {
   width: 16px;
   height: 12px;
@@ -632,10 +636,6 @@ input {
 .address {
   display: flex;
   align-items: center;
-}
-
-.header .address {
-  margin-left: auto;
 }
 
 .address__mail {

@@ -1,5 +1,9 @@
 .header {
   border-bottom: 1px solid $very-light-gray;
+
+  & .address {
+    margin-left: auto;
+  }
 }
 
 // .head-list-item {
@@ -27,16 +31,16 @@
   align-items: center;
 }
 
-.header .address {
-  margin-left: auto;
-}
+// .header .address {
+//   margin-left: auto;
+// }
 
 .address__mail {
   margin-right: 50px;
 }
 
-.navigation__list{
-   display: flex;
+.navigation__list {
+  display: flex;
   align-items: center;
 }
 
